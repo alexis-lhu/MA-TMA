@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="/style/index.css">
+</head>
+<body>
+    <header>
+        <h1>Site Upload File</h1>
+    </header>
+
+    <container>
+        <h3>Upload your file</h3>
+        <img src="./image/alexis_texas.jpg" alt="alexis_texas" >
+
+        <button id="showFormButton">Afficher le formulaire</button>
+
+        <form id="uploadForm" action="./php/upload.php" method="post" enctype="multipart/form-data" visibility="hidden">
+            <input type="text" name="Nom" placeholder="Nom" style="margin : 5px;">
+            <input type="text" name="Prenom" placeholder="Prenom"style="margin : 5px;">
+            <input type="file" name="userfile"style="margin : 5px;">
+            <button type="submit" name="submit"style="margin : 5px;">Upload</button>
+        </form>
+    </container>
+    
+
+</body>
+
+<script>
+    document.getElementById('showFormButton').addEventListener('click', function () {
+        // Afficher le formulaire
+        document.getElementById('uploadForm').style.display = 'flex';
+        document.getElementById('uploadForm').style.flexDirection = 'column';
+        
+        // Masquer le bouton
+        this.style.display = 'none';
+    });
+</script>
+</html>
