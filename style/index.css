@@ -1,5 +1,13 @@
 h1{
     text-align: center;
+    color: red
+}
+h3{
+    color:red;
+}
+
+p{
+    color:red;
 }
 img{
     width: 95px ;
@@ -15,4 +23,7 @@ container{
 }
 #uploadForm {
     display: none; /* Masquer le formulaire par défaut */
+}
+button{
+    margin-top: 5px;
 }

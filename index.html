@@ -13,6 +13,8 @@
         <h3>Upload your file</h3>
         <img src="./image/alexis_texas.jpg" alt="alexis_texas" >
 
+        <p>Groupe: Melvin Malagowski, Bastien Passet</p>
+
         <button id="showFormButton">Afficher le formulaire</button>
 
         <form id="uploadForm" action="./php/upload.php" method="post" enctype="multipart/form-data" visibility="hidden">
@@ -31,6 +33,7 @@
         // Afficher le formulaire
         document.getElementById('uploadForm').style.display = 'flex';
         document.getElementById('uploadForm').style.flexDirection = 'column';
+        document.getElementById('uploadForm').style.width = '85%';
         
         // Masquer le bouton
         this.style.display = 'none';
