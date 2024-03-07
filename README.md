@@ -54,11 +54,6 @@ The PHP script (upload.php) handles the file upload process. Here's a brief over
 
 - The PHP script performs security checks to prevent unauthorized file uploads.
 
-## Contributors
-
-- Melvin Malagowski
-- Bastien Passet
-
-Feel free to explore, use, and contribute to this project! If you encounter any issues or have suggestions, please create an issue or pull request.
+Feel free to explore, use this project! If you encounter any issues or have suggestions, please create an issue or pull request.
 
 Happy uploading! 🚀
