@@ -1,6 +1,6 @@
 # Site Upload File
 
-This repository contains a simple website for uploading files, developed by Melvin Malagowski and Bastien Passet. Users can upload files through a form, and the uploaded files are stored in the 'uploaded' directory.
+This repository contains a simple website for uploading files. Users can upload files through a form, and the uploaded files are stored in the 'uploaded' directory.
 
 ## Getting Started
 
