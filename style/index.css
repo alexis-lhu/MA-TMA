@@ -4,6 +4,9 @@ h1{
 img{
     width: 95px ;
 }
+button{
+    margin-top:10px;
+}
 container{
     display: flex;
     flex-direction: column;
