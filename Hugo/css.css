@@ -1,0 +1,69 @@
+/***********************************************/
+/***********************************************/
+/******INDEX STYLE******************************/
+
+body{
+background: linear-gradient(0deg, rgb(205, 129, 235) 0%, rgb(233, 145, 239) 55%);
+background-attachment: fixed;
+background-size: cover;
+color:#41ef31;
+}
+
+.principal {
+    border-radius: 5%;
+    margin: 0 auto;
+    height: 480px;
+    width: 20%;
+    background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+     margin-top: 5%;
+}
+
+.epsilon h1 {
+    font-size: 41px;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    
+}
+
+.epsilon p {
+    font-size: 1.2rem;
+}
+
+.epsilon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/***********************************************/
+/***********************************************/
+/******FORMS STYLE******************************/
+
+.principal-2 {
+    border-radius: 5%;
+    margin: 0 auto;
+    height: 480px;
+    width: 20%;
+    background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+     margin-top: 5%;
+}
+
+.epsilon-2 h1 {
+    font-size: 41px;
+    color:#41ef31;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    
+}
+
